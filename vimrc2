@@ -1,0 +1,12 @@
+highlight ExtraWhitespace ctermbg=red guibg=red
+hi Pmenu      ctermfg=DarkBlue    ctermbg=DarkGrey cterm=None guifg=Cyan guibg=DarkBlue
+hi PmenuSel   ctermfg=LightGrey   ctermbg=DarkGrey cterm=Bold guifg=White guibg=DarkBlue gui=Bold
+hi PmenuSbar                  ctermbg=Cyan            guibg=Cyan
+hi PmenuThumb ctermfg=White                           guifg=White
+match ExtraWhitespace /\s\+$\| \+\ze\t/
+set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
+set nocompatible
+set number
+filetype plugin indent on
+syntax on
+set mouse=a
